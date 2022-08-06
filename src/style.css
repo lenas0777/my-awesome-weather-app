@@ -1,0 +1,81 @@
+form {
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  line-height: 32px;
+}
+button {
+  display: block;
+  border-color: #6c757d;
+}
+.button {
+  background-color: #6c757d;
+  color: #fff;
+  border-radius: 10px;
+  padding: 3px 20px;
+  border: 0;
+  box-shadow: none;
+}
+.container {
+  max-width: 500px;
+  padding: 30px 10px;
+  margin: 0 auto;
+  border: 1px solid;
+  border-color: #6c757d;
+}
+.search {
+  padding: 0;
+}
+.date {
+  text-align: center;
+  margin: 25px auto;
+  color: #5a6275;
+}
+.city {
+  text-align: center;
+  margin: 25px auto;
+  font-size: 46px;
+}
+.forecast {
+  margin: 25px auto;
+  font-size: 26px;
+  text-align: center;
+  color: #5a6275;
+}
+.weather {
+  display: block;
+  margin: 0 auto;
+  width: 150px;
+}
+.degrees {
+  margin: 25px auto;
+  font-size: 46px;
+  text-align: center;
+}
+.row {
+  margin: 15px auto;
+  text-align: center;
+  max-width: 450px;
+}
+.days {
+  margin: 15px auto;
+}
+.days-weather {
+  width: 50px;
+}
+.data {
+  color: #6c757d;
+  display: block;
+  margin: 0 auto;
+  width: 450px;
+}
+#locationBtn {
+  margin: 0 auto;
+}
+.button:hover {
+  background-color: #6c757d;
+  cursor: pointer;
+  color: white;
+  opacity: 0.8;
+  transition: all 300ms ease-in-out;
+}
