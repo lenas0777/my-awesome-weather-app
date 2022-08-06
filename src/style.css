@@ -79,3 +79,8 @@ button {
   opacity: 0.8;
   transition: all 300ms ease-in-out;
 }
+.githubLink {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
